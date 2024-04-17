@@ -12,8 +12,8 @@ wandb_project = 'classical-lm'
 wandb_run_name = 'mini-gpt'
 
 dataset = 'classical_lm'
-gradient_accumulation_steps = 5
-batch_size = 128
+gradient_accumulation_steps = 8
+batch_size = 16
 block_size = 512 # context of up to 256 previous characters
 
 # baby GPT model :)
